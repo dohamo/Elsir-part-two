@@ -1,6 +1,6 @@
-var eventGreeting = 'What type of event are you attending?';
+let eventGreeting = 'What type of event are you attending?';
 let inputEvent = prompt(eventGreeting, 'casual, semi-formal, formal');
-var eventType = inputEvent;
+let eventType = inputEvent;
 switch (eventType) {
   case 'casual':
     eventType = 'something comfy';
@@ -16,9 +16,9 @@ switch (eventType) {
     break;
 }
 
-var tempGreeting = 'What is the temperature outside?';
+let tempGreeting = 'What is the temperature outside?';
 let inputTemp = prompt(tempGreeting, 'in degrees fahrenheit');
-var tempFahr = inputTemp;
+let tempFahr = inputTemp;
 if (tempFahr < 54) {
   tempFahr = 'a coat';
 } else if (53 < tempFahr && tempFahr < 71) {
